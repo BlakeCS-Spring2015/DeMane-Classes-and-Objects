@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC5059901A8930FE00F721F8 /* ImageText.m in Sources */ = {isa = PBXBuildFile; fileRef = BC50598F1A8930FE00F721F8 /* ImageText.m */; };
+		BC5059931A89517000F721F8 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5059921A89517000F721F8 /* MainPageViewController.m */; };
+		BC5059961A89588100F721F8 /* TextandPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5059951A89588100F721F8 /* TextandPictureViewController.m */; };
 		BCC3728D1A88F9A5009E13EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3728C1A88F9A5009E13EE /* main.m */; };
 		BCC372901A88F9A5009E13EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC3728F1A88F9A5009E13EE /* AppDelegate.m */; };
 		BCC372931A88F9A5009E13EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC372921A88F9A5009E13EE /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC50598E1A8930FE00F721F8 /* ImageText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageText.h; sourceTree = "<group>"; };
+		BC50598F1A8930FE00F721F8 /* ImageText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageText.m; sourceTree = "<group>"; };
+		BC5059911A89517000F721F8 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		BC5059921A89517000F721F8 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		BC5059941A89588100F721F8 /* TextandPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextandPictureViewController.h; sourceTree = "<group>"; };
+		BC5059951A89588100F721F8 /* TextandPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextandPictureViewController.m; sourceTree = "<group>"; };
 		BCC372871A88F9A5009E13EE /* Objects and classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objects and classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC3728B1A88F9A5009E13EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC3728C1A88F9A5009E13EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +95,12 @@
 				BCC372911A88F9A5009E13EE /* ViewController.h */,
 				BCC372921A88F9A5009E13EE /* ViewController.m */,
 				BCC372941A88F9A5009E13EE /* Main.storyboard */,
+				BC5059941A89588100F721F8 /* TextandPictureViewController.h */,
+				BC5059951A89588100F721F8 /* TextandPictureViewController.m */,
+				BC5059911A89517000F721F8 /* MainPageViewController.h */,
+				BC5059921A89517000F721F8 /* MainPageViewController.m */,
+				BC50598E1A8930FE00F721F8 /* ImageText.h */,
+				BC50598F1A8930FE00F721F8 /* ImageText.m */,
 				BCC372971A88F9A5009E13EE /* Images.xcassets */,
 				BCC372991A88F9A5009E13EE /* LaunchScreen.xib */,
 				BCC3728A1A88F9A5009E13EE /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5059931A89517000F721F8 /* MainPageViewController.m in Sources */,
 				BCC372931A88F9A5009E13EE /* ViewController.m in Sources */,
+				BC5059961A89588100F721F8 /* TextandPictureViewController.m in Sources */,
 				BCC372901A88F9A5009E13EE /* AppDelegate.m in Sources */,
+				BC5059901A8930FE00F721F8 /* ImageText.m in Sources */,
 				BCC3728D1A88F9A5009E13EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +432,7 @@
 				BCC372AC1A88F9A5009E13EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCC372AD1A88F9A5009E13EE /* Build configuration list for PBXNativeTarget "Objects and classesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +441,7 @@
 				BCC372AF1A88F9A5009E13EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

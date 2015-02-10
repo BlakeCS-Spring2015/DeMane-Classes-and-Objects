@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
-
 @end
 
+//@interface ImageText : UIViewController
+//
+//@property NSString *text;
+//@property BOOL pushed;
+//- (void)buttonispushed: (BOOL)buttonpushed;
+//
+//@end
